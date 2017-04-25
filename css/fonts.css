@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?e1a9yi');
+  src:  url('fonts/icomoon.eot?e1a9yi#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?e1a9yi') format('truetype'),
+    url('fonts/icomoon.woff?e1a9yi') format('woff'),
+    url('fonts/icomoon.svg?e1a9yi#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+.icon-radio-checked2:before {
+  content: "\ea55";
+}
+
