@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* --- HEADER / MAIN MENU --- */
+header { background: #06215d;}
+header .navbar-brand > img { height: auto; left: 50%; margin-left: -62px; position: absolute; width: 124px; top: 20px;}
+header .navbar { margin-bottom: 0; border: none;}
+header nav .navbar-header { height: 80px; background: linear-gradient(135deg, #061f5c 0%,#005484 100%);}
+header nav .navbar-toggle { border-radius: 0;}
+header nav .navbar-collapse { border-top: none; box-shadow: none;}
+nav .nav > li.mnuIco { display: inline-block; margin-right: 12px;}
+nav .nav > li:last-child.mnuIco { margin-left: 0;}
+nav .nav.navbar-right { margin: 48px 0 38px !important; text-align: center;}
+nav li a, nav li a:focus, nav li a:hover { background: none !important;}
+.nav > li, nav .nav .dropdown-menu li { text-align: center;}
+nav .nav > li > a { padding: 10px 0; text-transform: uppercase; color: #ffffff; font-size: 13px; font-weight: 700;}
+nav .nav > li.mnuIco > a { font-size: 26px;}
+.dropdown-menu > li > a { color: #777e99; text-transform: uppercase; font-size: 13px; padding: 2px 0 14px !important;}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover { color: #777e99;}
+
+.btMenu { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; border: medium none; cursor: pointer; display: block; font-size: 0; height: 20px; margin: 0; overflow: hidden; padding: 0; position: absolute; top: 26px; right: 16px; text-indent: -9999px; transition: background 0.3s ease 0s; width: 24px;}
+.btMenu:focus { outline: none;}
+.btMenu span { background: #ffffff; display: block; height: 4px; left: 0; position: absolute; right: 0; top: 8px; border-radius: 2px;}
+.btMenu span::before, .btMenu span::after { position: absolute; display: block; left: 0; width: 100%; height: 4px; background-color: #ffffff; content: ""; border-radius: 2px;}
+.btMenu span::before { top: -8px;}
+.btMenu span::after { bottom: -8px;}
+.btMenu span::before, .btMenu span::after { transition-duration: 0.3s, 0.3s; transition-delay: 0.3s, 0s;}
+.btMenu span::before { transition-property: top, transform;}
+.btMenu span::after { transition-property: bottom, transform;}
+.btMenu[aria-expanded="true"] span { background: none;}
+.btMenu[aria-expanded="true"] span::before { top: 0; transform: rotate(45deg); background-color: #ffffff;}
+.btMenu[aria-expanded="true"] span::after { bottom: 0; transform: rotate(-45deg); background-color: #ffffff;}
+.btMenu[aria-expanded="true"] span::before, .btMenu[aria-expanded="true"] span::after { transition-delay: 0s, 0.3s;}

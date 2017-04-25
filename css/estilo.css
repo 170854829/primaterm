@@ -1,0 +1,2156 @@
+@charset "UTF-8";
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('fonts/icomoon.eot');
+    src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.svg#icomoon') format('svg'),
+	url('fonts/icomoon.woff') format('woff'),
+	url('fonts/icomoon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon-radio-checked2:before {
+  content: "\ea55";
+}
+/* menu*/
+
+* {
+	margin:0;
+	padding:0;
+}
+ 
+
+ 
+header {
+	width:100%;
+}
+ 
+header nav {
+    background: white none repeat scroll 0 0;
+    margin: 20px auto;
+    max-width: 1000px;
+    width: 90%;
+}
+ 
+.menu_bar {
+	display:none;
+}
+ 
+header nav ul {
+	overflow:hidden;
+	list-style:none;
+}
+ 
+header nav ul li {
+	float:left;
+}
+
+
+header nav ul li a {
+    color: #1261b6;
+    display: block;
+    font-family: roboto;
+    padding: 20px;
+    text-decoration: none;
+}
+ 
+header nav ul li span {
+	margin-right:10px;
+}
+ 
+header nav ul li a:hover {
+	background:#FFFFFF;
+	color:#35b498;
+}
+ 
+section {
+	padding:20px;
+}
+ 
+@media screen and (max-width:800px ) {
+	header nav {
+    height: 100%;
+    left: -100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 46%;
+    z-index: 2000;
+}
+
+header nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+ 
+.menu_bar {
+    display: block;
+    float: right;
+    height: auto;
+    width: 33px;
+}
+
+ 
+	.menu_bar img{
+    float: left;
+    font-size: 40px;
+}
+}
+
+/*cierre menu*/
+.telefonos {
+    position: fixed;
+    right: 0;
+    top: 210px;
+    z-index: 3000;
+}
+
+.imgtelefonos {
+    background-image: url(../img/parallax/parralax1.svg);
+	background-repeat: no-repeat;
+    display: block;
+    overflow: hidden;
+    float: right;
+    height: 90px;
+    margin: -50px 0;
+    width: 96px;
+}
+footer{
+	background-image:url(../img/footer/footer.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:0 auto;
+	width:100%;
+	height:auto;
+	position: relative;
+	display: block;
+	z-index: 1000;
+	
+	
+	}
+	
+	
+		
+#base {
+  background: red;
+  display: inline-block;
+  height: 55px;
+  margin-left: 20px;
+  margin-top: 55px;
+    position: relative;
+    width: 100px;
+}
+#base:before {
+  border-bottom: 35px solid red;
+  border-left: 50px 25px transparent;
+  border-right: 50px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -35px;
+  width: 0;
+}
+.contenido-total{
+	display:block;
+	max-width:100%;
+	height:auto;
+	padding: 0;
+	position:relative;
+	 margin: 0 auto;
+	
+	}
+
+	
+.logo {
+    display: block;
+    float: left;
+    height: auto;
+    width: 20%;
+}
+	.interior-logo{
+		background-image:url(../img/header/logo.png);
+		background-repeat:no-repeat;
+		height:76px;
+		width:229px;
+
+	
+	}
+
+.cajaCentrar {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding: 0 4px;
+}
+banner {
+    display: block;
+    height: auto;
+    margin: 10px auto 0;
+    width: 100%;
+}
+	
+/*.objeto-banner {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 37px;
+    left: 0;
+
+    width: 101%;
+    z-index: 9999;
+	position: absolute;
+	bottom: 0;
+}
+	*/
+	
+	
+/*********************************************************************************	contenido 1**************************************************************/
+.contenido1 {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+}
+		
+.cont-huincha {
+    display: block;
+    height: auto;
+    margin-top: 197px;
+    overflow: hidden;
+    width: 100%;
+}
+.huincha {
+ 
+    background-repeat: no-repeat;
+
+    display:block;
+    height:600px;
+    margin:0 auto;
+	padding:0;
+    overflow: hidden;
+    width: 2000px;
+}
+.titulo-cont1 {
+   
+    display: block;
+   
+    height:auto;
+    margin: 0 auto;
+  
+    width: 20%;
+}
+
+
+.titulo-cont1 img {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 220px;
+    height: 138px;
+}
+p.text1{
+	display:block;
+	text-align: center;
+	overflow:hidden;	
+	width:40%;
+	font-family: roboto;
+	font-weight: 100;
+	}
+.producto1 {
+    display: block;
+    float: left;
+    height: 585px;
+    margin: 0 auto 0 -22px;
+    overflow: hidden;
+    position: relative;
+    top: -237px;
+    width: 100%;
+    z-index: 1000;
+}
+	.producto1 img{
+	
+	display: block;
+	height:585px;
+	width: 782px;
+	
+	
+	}
+
+
+	
+/*********************************************************************************cierre contenido 1*******************************************************/
+	
+	
+	
+	
+	
+
+/*********************************************************************************	contenido 2**************************************************************/
+.titulo-cont2 {
+   
+    display: block;
+    height: 206px;
+    margin-bottom: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 418px;
+}
+	
+	
+	.video{
+	display:block;
+	padding: 0;
+	position:relative;
+	margin:0 auto;
+	overflow:hidden;
+	width:550;
+	height:auto;
+	
+		
+		
+		}
+		
+.caja-texto1{
+	display:block;
+	width:50%;
+	height:auto;
+	margin:0 auto;
+	margin-top:20px;
+			
+			
+			}
+
+p.expli-video {
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    font-size: 11px;
+    font-family: roboto;
+}	
+		
+		
+	.contenido2 {
+    display: block;
+	width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+	
+	iframe{
+		
+	display: block;
+	width: 58%;
+    height: 700;
+    margin: 0 auto;
+    overflow: hidden;
+		
+		}
+	
+
+
+/*******************************************************************************cierre contenido 2**************************************************************/
+
+
+
+
+
+
+
+
+/******************************************************************************* contenido 3**************************************************************/
+
+			
+	.contenido3 {
+    display: block;
+	width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+	
+	
+.cont-huincha3 {
+    display: block;
+    height: auto;
+    margin-top: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.cont-huincha3 img{
+ 
+
+    display:block;
+    height:600px;
+    margin:0 auto;
+	padding:0;
+    overflow: hidden;
+    width:2000px;
+}
+	
+	
+.producto3 {
+    display: block;
+    height: 220px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    width: 100%;
+    z-index: 1000;
+}
+	.producto3 img{
+	
+	display: block;
+	height:585px;
+	width: 782px;
+	
+	
+	}
+	.contenido4 {
+    display: block;
+	width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+	
+
+
+.caja-infografia1{
+
+	display: block;
+	width: 210px;
+	height: 383px;	
+	position: relative;
+		
+
+}
+.caja-infografia2{
+
+
+	display: block;
+	
+	width: 210px;
+	height: 383px;
+	
+		position: relative;
+
+
+}
+	
+	
+	
+/*******************************************************************************cierre contenido 3**************************************************************/
+
+
+
+/********************************************************contenido4*************************************************/
+
+
+			
+	.contenido4 {
+    display: block;
+	width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+.cont-huincha4 {
+    display: block;
+    height: auto;
+    margin-top: 197px;
+    overflow: hidden;
+    width: 100%;
+}
+.huincha4 {
+ 
+    background-repeat: no-repeat;
+
+    display:block;
+    height:600px;
+    margin:0 auto;
+	padding:0;
+    overflow: hidden;
+    width: 2000px;
+}
+	
+
+/**********************************cierre contenido4*************************************************/	
+/*contacto*/	
+#bloque{
+	background-image:url(../img/contacto/contacto.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	height:500px;
+	margin:0 auto;
+	padding:0;
+	position:relative;
+	width:100%;
+	
+	
+}
+/*ciere contacto*/
+
+
+/*slide*/
+
+    
+  p{
+	font-family: Roboto;
+	
+}   
+    
+  
+
+   	/*cierre slide*/
+#jssor_1{ width:100% !important; min-width:100% !important;}
+#jssor_1 > div, #jssor_1 > div > div, #jssor_1 > div > div > div, #jssor_1 > div img{ min-width:100%;}
+
+
+/************************************************************responsivo****************************************************************/
+
+
+/* --- RESPONSIVE PANTALLAS CELULARES --- */
+
+@media screen and (min-width: 320px){
+	
+	header nav ul li a {
+    color: white;
+    display: block;
+    font-family: roboto;
+    font-size: 12px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+header nav {
+    background-color: #35b498;
+    height: 100%;
+    left: -100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 59%;
+    z-index: 2000;
+}
+.titulo-cont1 {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}	
+
+.titulo-cont1 img {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 300px;
+	height:179px;
+}
+
+
+p.text1 {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+.producto1 {
+    display: block;
+    height: 302px;
+    margin: 0 auto;
+    position: relative;
+    top: 33px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.producto1 img {
+    display: block;
+    height: 280px;
+    margin: 0 auto;
+    width: 279px;
+}	
+	
+	
+.producto3 {
+    display: block;
+    height: 321px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.producto3 img {
+    display: block;
+    height: 298px;
+    width: 300px;
+}
+	
+
+.cont-huincha {
+    display: block;
+    height: auto;
+    margin-top: -67px;
+    overflow: hidden;
+    width: 100%;
+}
+	
+	
+.titulo-cont2 {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}	
+
+.titulo-cont2 img {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 250px;
+    height: 123px;
+}
+	
+
+	iframe {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+	
+	
+footer{
+	background-image: url(../img/footer/footer.svg);
+	display: block;
+    height: auto;
+    margin-top: 197px;
+    overflow: hidden;
+    width: 100%;
+	
+	
+	}
+	
+
+		
+.caja-texto1 {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+}	
+	
+
+p.expli-video {
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    font-size: 11px;
+    font-family: roboto;
+}	
+	
+	
+
+	
+.titulo3 {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 9px;
+    padding-top: 19px;
+    position: relative;
+    width: 97px;
+    z-index: 1000;
+}
+
+	.contenido3 {
+    display: block;
+	width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+	
+.contenido4 {
+	
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    overflow: hidden;
+	padding-bottom:153px;
+}
+	
+	.cont-huincha3 {
+    display: block;
+    height: auto;
+    margin-top: -339px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.cont-huincha3 img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    width: 345px;
+}
+	
+	.caja-circulos1{
+	    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1000;
+    padding-top: 30px;
+}
+	
+	
+.circ1 img{
+	display: block;
+	margin: 0 auto;
+	float: left;
+		width: 48%;	
+
+		
+	}
+.caja-circ2 img{
+	display: block;
+	margin: 0 auto;
+	float: right;
+	width: 48%;		
+		
+	}
+	
+	.caja-circulos2{
+		display: block;
+		margin:0 auto;
+		position:relative;
+		width:100%;
+		height:auto;
+		z-index:1000;
+	
+	}
+		
+	
+	.circ11 {
+	display: block;
+	margin: 0 auto;
+	float: right;
+		width: 48%;	
+
+		
+	}
+
+.caja-circ22 img{
+	display: block;
+	margin: 0 auto;
+	float:left;
+	width: 48%;		
+		
+	}
+	
+	
+	
+	
+	.titulo-cont4 {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+	
+		
+
+	.titulo4 {
+    display: block;
+    margin: 0 auto;
+    padding-top: 19px;
+    position: relative;
+    width: 76%;
+    z-index: 2000;
+}
+	
+	huincha4 {
+    display: block;
+    height: auto;
+    margin-top: -415px;
+    overflow: hidden;
+    width: 100%;
+}
+
+	.cont-huincha4 img {
+    display: block;
+    height: 351px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+	
+.caja-arq {
+    margin: 0 auto;
+    width: 232px;
+    height: 349px;
+    background: #fff;
+    z-index: 1000;
+    position: relative;
+    margin-top: 18px;
+    -webkit-box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.2);
+    box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.2);
+    margin-bottom: 357px;
+}
+	
+	.cont-huincha4 {
+    display: block;
+    height: auto;
+    margin-top: -1092px;
+    overflow: hidden;
+    width: 100%;
+}
+	.foto-arquitecto {
+    margin: 0 auto;
+    display: block;
+    height: auto;
+    width: 111%;
+    position: relative;
+    z-index: 1000;
+    padding-left: 76px;
+    padding-top: 20px;
+}
+	
+	
+		.foto-arquitecto img{
+		display: block;
+		height: 91px;
+		width: 90px;
+		
+		
+	}
+	
+	
+	
+	h5{
+		margin: 0 auto;
+		display:block;
+		width: 80%;
+		height: auto;
+		text-align: center;
+		font-size: 10px;
+		padding-top: 10px;
+		
+		
+	}
+         .txt-arq  {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		width: 80%;
+		height: auto;
+		font-size: 12px;
+			 margin-top: 20px;
+		
+	}
+	
+	
+footer {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+		
+		
+	
+
+	
+	
+	
+	#bloque{
+	background-image:url(../img/contacto/contacto.png);
+	background-repeat:repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	height:440px;
+	margin:0 auto;
+	padding:0;
+	position:relative;
+	width:100%;
+	
+	
+}
+	
+	.contacto {
+    display: block;
+    width: 100%;
+    height: 332px;
+    padding-top: 274px;
+}
+	
+	
+	.cuadrado2 {
+	margin: 0 auto;
+    width: 280px;
+    height: 300px;
+    background: #fff;
+    z-index: 1000;
+    position: relative;
+    margin-top: 32px;
+
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.cont-huincha4 {
+    display: block;
+    height: auto;
+    margin-top: -1104px;
+    overflow: hidden;
+    width: 100%;
+}
+	
+	
+	
+	.caja-arq {
+    margin: 0 auto;
+    width: 230px;
+    height: 349px;
+    background: #fff;
+    z-index: 1000;
+    position: relative;
+    margin-top: 18px;
+    -webkit-box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.2);
+    box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.2);
+    margin-bottom: 357px;
+}
+	
+	
+	.titulo4 {
+    display: block;
+    width: 100%;
+    z-index: 2000 !important;
+    margin: 0;
+    padding-top: 19px;
+    position: relative;
+}
+	
+	.titulo-cont1 img {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 220px;
+    height: 138px;
+
+	
+	}
+	
+	p.text1 {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+	font-size: 12px;
+}
+		
+		
+		
+
+p.expli-video {
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    font-size: 11px;
+    font-family: roboto;
+}	
+	
+	
+	
+	
+	.contacto-titulo {
+    display: block;
+    height: 20px;
+    text-align: center;
+    font-size: 14;
+    margin: 0 auto;
+    padding-top: 14px;
+    width: 64%;
+}
+
+	
+	
+	.objeto-banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 9999;
+    padding-bottom: 20px;
+    width: 101%;
+    margin: 0px auto;
+    bottom: 0px;
+    height: 19px;
+    left: 0px;
+    padding-bottom: 0px;
+}
+	
+	
+	
+	.footer-contenido {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 320px;
+    height: 177px;
+}
+
+
+
+.imgtelefonos {
+    background-image: url("../img/parallax/parralax1.svg");
+    background-repeat: no-repeat;
+    display: block;
+    float: right;
+    height: 90px;
+    margin: -50px 0;
+    overflow: hidden;
+    width: 70px;
+}
+
+
+.circ1 img {
+   
+    float: left;
+    width: 48%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 23px;
+}
+
+.caja-circulos2 {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    width: 93%;
+    z-index: 1000;
+}
+
+.caja-circulos1 {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 30px;
+    position: relative;
+    width: 93%;
+    z-index: 1000;
+}
+
+.caja-circ22 img {
+    display: block;
+    float: left;
+    margin: 0 auto;
+    width: 48%;
+    padding-top: 5px;
+}
+
+.titulo4 {
+    display: block;
+    margin: 0;
+    padding-top: 19px;
+    position: relative;
+    width: 100%;
+    z-index: 2000;
+}
+
+
+.arquitecto-subt{
+	display:block;
+	font-weight:100;
+	margin:0 auto;
+	font-size:9px;
+	text-align:center;
+	font-family:roboto;
+	
+	}
+}
+
+
+@media screen and (min-width: 480px){
+	
+	.producto1 {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+    width: 100%;
+    z-index: 1000;
+}
+	
+	.contenido2 {
+    display: block;
+    height: auto;
+    margin: 32px auto 0;
+    overflow: hidden;
+    width: 100%;
+}
+	huincha {
+    display: block;
+    height: auto;
+    margin-top: -108px;
+    overflow: hidden;
+    width: 100%;
+}
+	
+	.producto1 img {
+    display: block;
+    height: 402px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+	
+	iframe {
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+	
+	
+circulos1 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 82%;
+    height: auto;
+    z-index: 1000;
+    padding-top: 30px;
+}
+	
+	
+	
+circulos2 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1000;
+}
+	
+	huincha3 {
+    display: block;
+    height: auto;
+    margin-top: -442px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.cont-huincha3 img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+	.cont-huincha3 {
+    display: block;
+    height: auto;
+    margin-top: -438px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+	
+	circulos1 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1000;
+    padding-top: 41px;
+}
+
+	
+	
+	.imgtelefonos {
+    background-image: url("../img/parallax/parralax1.svg");
+    background-repeat: no-repeat;
+    display: block;
+    float: right;
+    height: 90px;
+    margin: -50px 0;
+    overflow: hidden;
+    width: 82px;
+}
+	
+	.titulo4 {
+    display: block;
+    width: 100%;
+    z-index: 2000 !important;
+    margin: 0;
+    padding-top: 8px;
+    bottom: 5px;
+}
+	
+	.producto3 {
+    display: block;
+    height: 303px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    width: 100%;
+    z-index: 1000;
+}
+	
+.contenido3 {
+    display: block;
+    height: auto;
+    margin: 9px auto 0;
+    overflow: hidden;
+    width: 100%;
+}
+.cont-huincha4 {
+    display: block;
+    height: auto;
+    margin-top: -1140px;
+    overflow: hidden;
+    width: 100%;
+}	
+	
+	
+	.producto3 img {
+    display: block;
+    height: 288px;
+    width: 400px;
+}
+	
+	
+	
+.caja-arq {
+    margin: 0 auto;
+    width: 389px;
+    height: 387px;
+    background: #fff;
+    z-index: 1000;
+    position: relative;
+    margin-top: 18px;
+    -webkit-box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.2);
+    box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.2);
+    margin-bottom: 357px;
+}
+	
+	
+	
+.foto-arquitecto img {
+    display: block;
+    height: 131px;
+    width: 130px;
+}	
+	
+.foto-arquitecto {
+    margin: 0 auto;
+    display: block;
+    height: auto;
+    width: 131px;
+    position: relative;
+    z-index: 1000;
+    padding-top: 20px;
+    padding-left: 0;
+}
+	
+	
+	
+	h5 {
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+}
+	
+	
+	
+	.txt-arq {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 83%;
+    height: auto;
+    font-size: 14px;
+    margin-top: 20px;
+}
+	
+	
+	
+	
+
+	
+	.contacto {
+    display: block;
+    width: 100%;
+    height: 317px;
+    padding-top: 314px;
+}
+	
+	
+	
+	p.text1 {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    font-family: roboto;
+    font-weight: regular;
+}
+	
+
+
+	
+.cont-huincha {
+    display: block;
+    height: auto;
+    margin-top: -221px;
+    overflow: hidden;
+    width: 100%;
+}
+	
+	
+	
+	.titulo-cont1 img {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 300px;
+    height: 168px;
+}
+	
+	
+	
+	
+	.titulo-cont2 img {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 300px;
+    height: 148px;
+}
+	
+	
+	
+iframe {
+    display: block;
+    width: 100%;
+    height: 343px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 22px;
+}
+	
+	p.expli-video {
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    font-size: 14px;
+    font-family: roboto;
+}
+	
+
+	
+	.caja-circulos1 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 69%;
+    height: auto;
+    z-index: 1000;
+    padding-top: 30px;
+}
+	.caja-circulos2 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 69%;
+    height: auto;
+    z-index: 1000;
+}
+	
+	
+	.cont-huincha3 .cuatroochenta {
+		
+    display: block;
+    height: auto;
+    margin-top: -387px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+	
+	
+	
+	.titulo4 {
+    display: block;
+    width: 63%;
+    z-index: 1000 !important;
+    margin: 0 auto;
+    padding-top: 8px;
+    bottom: 14px;
+    position: relative;
+}
+	
+	
+	.cont-huincha4 {
+    display: block;
+    height: auto;
+    margin-top: -1235px;
+    overflow: hidden;
+    width: 100%;
+}
+.cont-huincha4 img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}	
+	
+	.producto3 {
+    display: block;
+    height: 360px;
+    margin: 0 auto;
+    position: relative;
+    top: -21px;
+    width: 100%;
+    z-index: 1000;
+}
+	
+	
+	.producto3 img {
+    display: block;
+    height: 360px;
+    width: 500px;
+    margin: 0 auto;
+}
+	
+	
+	.txt-arq {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 83%;
+    height: auto;
+    font-size: 15px;
+    margin-top: 20px;
+}
+	
+	
+	.caja-arq {
+    margin: 0 auto;
+    width: 481px;
+    height: 387px;
+    background: #fff;
+    z-index: 1000;
+    position: relative;
+    margin-top: 18px;
+    -webkit-box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.2);
+    box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.2);
+    margin-bottom: 357px;
+}
+	
+	
+	 #bloque {
+    background-image: url(../img/contacto/contacto.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 505px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+	
+	
+	footer {
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+	
+	.footer-contenido {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 320px;
+    height: 229px;
+}
+	
+	.telefonos {
+    position: fixed;
+    right: 0;
+    top: 151px;
+    z-index: 3000;
+}
+	.imgtelefonos {
+    background-image: url("../img/parallax/parralax1.svg");
+    background-repeat: no-repeat;
+    display: block;
+    float: right;
+    height: 90px;
+    margin: -50px 0;
+    overflow: hidden;
+    width: 49px;
+}
+	
+	.imgtelefonos {
+    background-image: url("../img/parallax/parralax1.svg");
+    background-repeat: no-repeat;
+    display: block;
+    float: right;
+    height: 90px;
+    margin: -50px 0;
+    overflow: hidden;
+    width: 82px;
+}
+
+.contenido3 {
+    display: block;
+    height: auto;
+    margin: 34px auto 0;
+    overflow: hidden;
+    width: 100%;
+}
+.titulo3 {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 9px;
+    padding-top: 19px;
+    position: relative;
+    width: 190px;
+    z-index: 1000;
+}
+
+.contenido3 {
+    display: block;
+    height: auto;
+    margin: 34px auto 0;
+    overflow: hidden;
+    width: 100%;
+}
+	
+	
+	.caja-circulos1 {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 60px;
+    position: relative;
+    width: 82%;
+    z-index: 1000;
+}
+.caja-circulos2 {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    width: 82%;
+    z-index: 1000;
+}
+
+.circ1 img {
+    display: block;
+    float: left;
+    margin: 0 auto;
+    padding-top: 44px;
+    width: 48%;
+}
+
+
+.caja-circ2 img {
+    display: block;
+    float: right;
+    margin: 0 auto;
+    width: 48%;
+}
+
+
+.caja-circ22 img {
+    display: block;
+    float: left;
+    margin: 0 auto;
+    padding-top: 14px;
+    width: 48%;
+}
+
+.circ11 {
+    display: block;
+    float: right;
+    margin: 0 auto;
+    padding-top: 12px;
+    width: 48%;
+}
+
+.cont-huincha3 {
+    display: block;
+    height: auto;
+    margin-top: -474px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+
+
+
+.producto3 img {
+    display: block;
+    height: 401px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.producto3 img {
+    display: block;
+    height: 401px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.cont-huincha4 {
+    display: block;
+    height: auto;
+    margin-top: -1176px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.contenido4 {
+    display: block;
+    height: auto;
+    margin-top: 0;
+    overflow: hidden;
+    padding-bottom: 153px;
+    width: 100%;
+}
+
+.contenido4 {
+    display: block;
+    height: auto;
+    margin-top: 0;
+    overflow: hidden;
+    padding-bottom: 153px;
+    width: 100%;
+}
+
+.contacto {
+    display: block;
+    height: 317px;
+    padding-top: 343px;
+    width: 100%;
+}
+
+.caja-arq {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 6px 5px 3px rgba(0, 0, 0, 0.2);
+    height: 387px;
+    margin: 18px auto 357px;
+    position: relative;
+    width: 428px;
+    z-index: 1000;
+}
+
+}
+
+
+
+
+
+
+
+/* --- RESPONSIVE PANTALLAS PC --- */
+
+
+@media screen and (min-width: 768px){
+	
+	.contacto {
+    display: block;
+    width: 100%;
+    height: 299px;
+    padding-top: 314px;
+}
+
+
+p.text1 {
+    display: block;
+    font-family: roboto;
+    font-size: 13px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    width: 61%;
+}
+
+
+p.expli-video {
+    display: block;
+    font-family: roboto;
+    font-size: 13px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.caja-texto1 {
+    display: block;
+    height: auto;
+    margin: 20px auto 0;
+    width: 82%;
+}
+
+
+.caja-texto1 {
+    display: block;
+    height: auto;
+    margin: 20px auto 0;
+    width: 82%;
+}
+.caja-arq {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 6px 5px 3px rgba(0, 0, 0, 0.2);
+    height: 387px;
+    margin: 18px auto 357px;
+    position: relative;
+    width: 510px;
+    z-index: 1000;
+}
+
+.contacto {
+    display: block;
+    height: 299px;
+    padding-top: 150px;
+    width: 100%;
+}
+
+
+
+
+
+}
+
+
+@media screen and (min-width: 992px) {
+	.contenido1 {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+    z-index: 2000;
+    padding-top: 0;
+}
+	
+	.titulo-cont1 {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    width: 52%;
+    float: right;
+  
+    margin-bottom: 30px;
+}
+	
+	
+.titulo-cont1 img {
+    display: block;
+    height: 224px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 400px;
+}
+	p.text1 {
+    color: white;
+    display: block;
+    font-family: roboto;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0 65px 0 auto;
+    overflow: hidden;
+    padding-left: 528px;
+    padding-right: 49px;
+    padding-top: 66px;
+    position: relative;
+    text-align: left;
+    width: 39%;
+    z-index: 1000;
+}
+	
+	.titulo-cont1 img {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 400px;
+    height: 224px;
+}
+	
+	
+
+	.producto1 {
+    display: block;
+    float: left;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    top: -315px;
+    width: 60%;
+    z-index: 1000;
+}
+	
+	.producto1 img {
+    display: block;
+    float: left;
+    height: 502px;
+    margin: 0 auto;
+    width: 500px;
+}
+	
+	.cont-huincha {
+    display: block;
+    height: auto;
+    margin-top: -812px;
+    overflow: hidden;
+    width: 100%;
+}
+	
+	
+	.titulo-cont2 img {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 400px;
+    height: 197px;
+}
+	
+	
+iframe {
+    display: block;
+    width: 79%;
+    height: 467px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 22px;
+}
+	
+	p.expli-video {
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    font-size: 13px;
+    font-family: roboto;
+    line-height: 23px;
+}
+	
+	
+	.caja-circulos2 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 45%;
+    height: auto;
+    z-index: 1000;
+}
+	
+	.caja-circulos1 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 45%;
+    height: auto;
+    z-index: 1000;
+    padding-top: 30px;
+}
+	
+	
+	
+.titulo3 {
+    display: block;
+    width: 208px;
+    z-index: 2000 !important;
+    margin: 0 auto;
+    padding-top: 42px;
+    position: relative;
+    padding-bottom: 9px;
+}	
+	.caja-circulos1 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 45%;
+    height: auto;
+    z-index: 1000;
+    padding-top: 128px;
+    float: left;
+    padding-left: 31px;
+}
+	
+	
+.caja-circulos2 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 45%;
+    height: auto;
+    z-index: 1000;
+    float: right;
+    padding-top: 44px;
+    padding-right: 35px;
+}
+	.circ1 img {
+   
+    float: left;
+    width: 48%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 23px;
+}
+	
+	.caja-circ2 {
+    padding-bottom: 40px;
+    display: block;
+    margin: 0 auto;
+
+}
+	
+	.caja-circ22 img {
+    display: block;
+    margin: 0 auto;
+    float: left;
+    width: 48%;
+    padding-top: 39px;
+}
+	
+	.circ11 {
+    display: block;
+    margin: 0 auto;
+    float: right;
+    width: 48%;
+    padding-top: 0;
+}
+	.cont-huincha3 {
+    display: block;
+    height: auto;
+    margin-top: -389px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+	.producto3 {
+    display: block;
+    height: 447px;
+    margin: 0 auto;
+    position: relative;
+    top: 7px;
+    width: 100%;
+    z-index: 1000;
+}
+	
+	.producto3 img {
+    display: block;
+    height: 447px;
+    width: 600px;
+    margin: 0 auto;
+}
+.cont-huincha4 {
+    display: block;
+    height: auto;
+    margin-top: -1295px;
+    overflow: hidden;
+    width: 100%;
+}	
+
+.cont-huincha4 {
+    display: block;
+    height: auto;
+    margin-top: -1295px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.producto3 {
+    display: block;
+    height: 502px;
+    margin: 0 auto;
+    position: relative;
+    top: 7px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.titulo4 {
+    bottom: 14px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    position: relative;
+    width: 50%;
+    z-index: 1000;
+}
+
+.producto3 {
+    display: block;
+    height: 437px;
+    margin: 0 auto;
+    position: relative;
+    top: 7px;
+    width: 100%;
+    z-index: 1000;
+}
+.caja-arq {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 6px 5px 3px rgba(0, 0, 0, 0.2);
+    height: 430px;
+    margin: 18px auto 357px;
+    position: relative;
+    width: 537px;
+    z-index: 1000;
+}
+
+.foto-arquitecto img {
+    display: block;
+    height: 150px;
+    margin: 0 auto;
+    width: 150px;
+}
+
+.foto-arquitecto {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-top: 20px;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+.foto-arquitecto {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-top: 20px;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+
+.txt-arq {
+    display: block;
+    font-size: 12px;
+    height: auto;
+    line-height: 21px;
+    margin: 57px auto 0;
+    text-align: center;
+    width: 83%;
+}
+
+.contacto {
+    display: block;
+    height: 299px;
+    padding-bottom: 35px;
+    padding-top: 168px;
+    width: 100%;
+}
+.footer-contenido {
+    display: block;
+    height: 311px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 320px;
+}
+.menu_bar {
+    display: block;
+    float: right;
+    height: auto;
+    width: 57px;
+}
+
+.menu_bar a{
+    margin: 0;
+    padding: 4px;
+}
+}
+
+
+@media screen and (min-width: 1200px) {
+	
+	
+
+}
+
+
+
+
+
+
+
+
+
+
